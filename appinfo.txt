@@ -1,1 +1,25 @@
 This is a text file containing information about predict market application.
+Tasks:
+1.  Create a GitHub Account:
+    Sign up for a GitHub account if you do not have one already.
+2.  Initialize a Local Git Repository:
+    Set up a local Git repository for your project on your computer.
+3.  Add Files and Make Initial Commit:
+    Create necessary files (python, text, HTML, CSS, etc.) for the application.
+    Use  Git  commands  to  add  these  files  to  the  staging  area  and  make  an initial commit.
+4.  Create a Remote Repository on GitHub:
+    Create a new repository named ”market-prediction” on your GitHub ac-count.
+5.  Connect Local and Remote Repositories:
+    Link the local Git repository to the remote repository on GitHub as its remote origin.
+6.  Push to GitHub:
+    Push the committed changes from the local repository to the remote repository on GitHub.
+7.  Create and Switch Branches:
+    Create  a  new  branch  named  ” feature/add-about-project ”  for  adding  an’About the application’ section.
+    Switch to the newly created branch and make changes to add a text file appinfo.txt that contains the info about the application.
+8.  Commit Changes to the New Branch:
+    Add the changes made to the staging area and commit them.
+9.  Pull Changes from the Main Branch:
+    Simulate a collaborative scenario by switching back to the main branch and making a change (e.g., updating the readme.txt file).
+    Pull these changes into the ’feature/add-about-project’ branch to incorporate the latest updates.
+10.  Finalize Changes and Push the Branch:
+    Finalize, add all changes to the staging area, commit them, and push the’feature/add-about-project’ branch to GitHub.
