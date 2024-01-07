@@ -7,6 +7,7 @@ This project showcases collaboration using Git. It includes the creation of bran
 ## Table of Contents
 - [About the Application](#about-the-application)
 - [Changes Made](#changes-made)
+- [Command List of How the Project Was Made](#commands-list-of-how-the-project-was-made)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,6 +34,100 @@ This application is a demonstration of collaborative development using Git. The 
 3. **Incorporated Changes from `main`:**
    - Merged changes from the `main` branch to ensure that the `feature/add-about-project` branch stays up-to-date with the latest developments.
 
+## Commands List of How the Project Was Made:
+1. **Initialize a new Git repository:**
+   ```bash
+   git init
+2. **Add files to the project:** 
+   ```bash
+   git add .
+3. **Commit the initial changes:** 
+   ```bash
+   git commit -m "Initial commit"
+4. **Check the repository status:** 
+   ```bash
+   git status
+5. **Link the local repository to a remote repository on GitHub:** 
+   ```bash
+   git remote add origin https://github.com/912-Cotor-Catinca/majet-prediction.git
+6. **Rename the branch to 'main':** 
+   ```bash
+   git branch -M main
+7. **Push the changes to the remote repository:** 
+   ```bash
+   git push -u origin main
+8. **Create a new feature branch 'feature/add-about-project':** 
+   ```bash
+   git branch feature/add-about-project
+9. **Switch to the new feature branch:** 
+   ```bash
+   git checkout feature/add-about-project
+10. **Add 'appinfo.txt' to the staging area:** 
+    ```bash
+    git add appinfo.txt
+11. **Commit changes to the feature branch:** 
+    ```bash
+    git commit -m "Add About the Application section"
+12. **Switch back to the 'main' branch:** 
+    ```bash
+    git checkout main
+13. **Add changes to 'readme.txt' on the 'main' branch:**
+    ```bash
+    git add readme.txt
+14. **Commit changes to 'readme.txt' on the 'main' branch:** 
+    ```bash
+    git commit -m "Update README content"
+15. **Push changes to the 'main' branch on GitHub:** 
+    ```bash
+    git push origin main
+16. **Switch back to the 'feature/add-about-project' branch:** 
+    ```bash
+    git checkout feature/add-about-project
+17. **Pull changes from 'main' into 'feature/add-about-project':** 
+    ```bash
+    git pull origin main
+18. **Add all changes to the staging area:** 
+    ```bash
+    git add .
+19. **Push changes to the 'feature/add-about-project' branch on GitHub:** 
+    ```bash
+    git push origin feature/add-about-project
+20. **Switch back to the 'main' branch:** 
+    ```bash
+    git checkout main
+21. **Add changes to 'readme.md' on the 'main' branch:** 
+    ```bash
+    git add readme.md
+22. **Commit changes to 'readme.md' on the 'main' branch:** 
+    ```bash
+    git commit -m "Change the format of the README file from .txt to .md"
+23. **Push changes to the 'main' branch on GitHub:** 
+    ```bash
+    git push origin main
+24. **Switch back to the 'feature/add-about-project' branch:** 
+    ```bash
+    git checkout feature/add-about-project
+25. **Pull changes from 'main' into 'feature/add-about-project':** 
+    ```bash
+    git pull origin main
+26. **Add changes to 'appinfo.txt' on the 'feature/add-about-project' branch:** 
+    ```bash
+    git add appinfo.txt
+27. **Commit changes to 'appinfo.txt' on the 'feature/add-about-project' branch:** 
+    ```bash
+    git commit -m "Add text to the appinfo.txt"
+28. **Push changes to the 'feature/add-about-project' branch on GitHub:** 
+    ```bash
+    git push origin feature/add-about-project
+29. **Switch back to the 'main' branch:** 
+    ```bash
+    git checkout main
+30. **Merge changes from 'feature/add-about-project' into 'main':** 
+    ```bash
+    git merge feature/add-about-project
+31. **Push merged changes to the 'main' branch on GitHub:** 
+    ```bash
+    git push origin main
 
 ## Getting Started
 
