@@ -1,25 +1,32 @@
-This is a text file containing information about predict market application.
-Tasks:
-1.  Create a GitHub Account:
-    Sign up for a GitHub account if you do not have one already.
-2.  Initialize a Local Git Repository:
-    Set up a local Git repository for your project on your computer.
-3.  Add Files and Make Initial Commit:
-    Create necessary files (python, text, HTML, CSS, etc.) for the application.
-    Use  Git  commands  to  add  these  files  to  the  staging  area  and  make  an initial commit.
-4.  Create a Remote Repository on GitHub:
-    Create a new repository named ”market-prediction” on your GitHub ac-count.
-5.  Connect Local and Remote Repositories:
-    Link the local Git repository to the remote repository on GitHub as its remote origin.
-6.  Push to GitHub:
-    Push the committed changes from the local repository to the remote repository on GitHub.
-7.  Create and Switch Branches:
-    Create  a  new  branch  named  ” feature/add-about-project ”  for  adding  an’About the application’ section.
-    Switch to the newly created branch and make changes to add a text file appinfo.txt that contains the info about the application.
-8.  Commit Changes to the New Branch:
-    Add the changes made to the staging area and commit them.
-9.  Pull Changes from the Main Branch:
-    Simulate a collaborative scenario by switching back to the main branch and making a change (e.g., updating the readme.txt file).
-    Pull these changes into the ’feature/add-about-project’ branch to incorporate the latest updates.
-10.  Finalize Changes and Push the Branch:
-    Finalize, add all changes to the staging area, commit them, and push the’feature/add-about-project’ branch to GitHub.
+Commands list of how the project was made:
+1. git init
+2. git add . // I added the files in the project
+3. git commit -m "Initial commit"
+4. git status
+5. git remote add origin https://github.com/912-Cotor-Catinca/majet-prediction.git
+6. git branch -M main
+7. git push -u origin main
+8. git branch feature/add-about-project
+9. git checkout feature/add-about-project
+10. git add appinfo.txt
+11. git commit -m "Add About the Application section"
+12. git checkout main
+13. git add readme.txt
+14. git commit -m "Update README content"
+15. git push origin main
+16. git checkout feature/add-about-project
+17. git pull origin main
+18. git add .
+19. git push origin feature/add-about-project
+20. git checkout main
+21. git add readme.md
+22. git commit -m "Change the format of the README file from .txt to .md"
+23. git push origin main
+24. git checkout feature/add-about-project
+25. git pull origin main
+26. git add appinfo.txt
+27. git commit -m "Add text to the appinfo.txt"
+28. git push origin feature/add-about-project
+29. git checkout main
+30. git merge feature/add-about-project
+31. git push origin main
