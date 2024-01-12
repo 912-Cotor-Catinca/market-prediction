@@ -3,7 +3,7 @@ Commands list of how the project was made:
 2. git add . // I added the files in the project
 3. git commit -m "Initial commit"
 4. git status
-5. git remote add origin https://github.com/912-Cotor-Catinca/majet-prediction.git
+5. git remote add origin https://github.com/912-Cotor-Catinca/market-prediction.git
 6. git branch -M main
 7. git push -u origin main
 8. git branch feature/add-about-project
