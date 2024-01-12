@@ -49,7 +49,7 @@ This application is a demonstration of collaborative development using Git. The 
    git status
 5. **Link the local repository to a remote repository on GitHub:** 
    ```bash
-   git remote add origin https://github.com/912-Cotor-Catinca/majet-prediction.git
+   git remote add origin https://github.com/912-Cotor-Catinca/market-prediction.git
 6. **Rename the branch to 'main':** 
    ```bash
    git branch -M main
